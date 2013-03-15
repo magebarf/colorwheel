@@ -307,7 +307,7 @@ Raphael.colorwheel = function(target, color_wheel_size, no_segments){
   }
 
   function run_onchange_event(){
-	if (change_callback !== undefined){
+	if (change_callback){
       change_callback(current_color);
     }
   }
